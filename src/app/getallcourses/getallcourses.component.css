@@ -1,0 +1,28 @@
+
+.image {
+    width:50px;
+    height:50px
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+@media screen and (min-width:768px){
+    .image {
+        width:100px;
+        height:100px
+    }
+}
+.search_bar {
+    width:600px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width:968px){
+    .search_bar {
+        width:200px;
+        
+    }
+}
